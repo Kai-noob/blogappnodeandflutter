@@ -25,7 +25,7 @@ connection.once("open",()=>{
 
 
 app.get("/",(req,res)=>{
-      res.json("Hello")
+      res.json("Hey")
 })
 
 app.listen(PORT,()=>{
